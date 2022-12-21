@@ -6,6 +6,8 @@ html, body {
     height: 100%;
 }
 
+/* HEADER CODE BEGINS HERE */
+
 .header {
     padding: 0 200px;
     background: #1F2937;
@@ -14,9 +16,10 @@ html, body {
 ul {
     display: flex;
     list-style-type: none;
+    font-size: 18px;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 16px;
 }
 
 a {
@@ -34,4 +37,39 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.intro-and-image {
+    display: flex;
+    padding: 75px 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 75px;
+}
+
+.header-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.sign-up1 {
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    width: 150px;
 }
