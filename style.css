@@ -181,3 +181,16 @@ a {
     border: 2px solid #F9FAF8;
     width: 150px;
 }
+
+/* FOOTER CODE BEGINS HERE */
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-words {
+    text-align: center;
+    color:#E5E7EB;
+    font-size: 18px;
+    padding: 40px 0;
+}
