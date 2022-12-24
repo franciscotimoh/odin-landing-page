@@ -119,3 +119,27 @@ a {
     color: #838A93;
     margin: 10px 0 100px 0;
 }
+
+/* QUOTE SECTION CODE BEGINS HERE */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 170px 340px 150px 340px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quotee {
+    display: flex;
+    justify-content: right;
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
