@@ -73,3 +73,49 @@ a {
     border: none;
     width: 150px;
 }
+
+/* CONTENT CODE BEGINS HERE */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.square {
+    height: 180px;
+    width: 180px;
+    
+    border: 5px solid #3882F6;
+    border-radius: 14px;
+    /* Border size (default is 0), Border Style (default is None), Border Color */
+}
+
+.content-items {
+    display: flex;
+}
+
+.item1, 
+.item2,
+.item3,
+.item4 {
+    width: 180px;
+    margin: 0 35px;
+}
+
+.content-subtext1,
+.content-subtext2,
+.content-subtext3,
+.content-subtext4 {
+    text-align: center;
+    font-size: 18px;
+    color: #838A93;
+    margin: 10px 0 100px 0;
+}
